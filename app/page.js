@@ -111,7 +111,7 @@ export default function Home() {
                   <AvatarFallback>1</AvatarFallback>
                 </Avatar>
                 <div className="ml-4 space-y-1">
-                  <p className="text-md font-bold leading-none mb-2">Tell me more about your experience at {company}?</p>
+                  <p className="text-md font-bold leading-none mb-2">Tell me more about your experience at Oculus?</p>
                   <p className="text-sm -foreground">
                   Your response is effective because it not only demonstrates a deep understanding of and appreciation for the company&apos;s values and work environment but also aligns the candidate&apos;s personal and professional goals with the company&apos;s mission and culture. 
                   </p>
@@ -144,7 +144,7 @@ export default function Home() {
                   The response is extremely vague, lacking any specific details about the projects, and the outcomes achieved. This makes it difficult for an interviewer to gauge your experience & abilities.
                   </p>
                 </div>
-                <div className="ml-auto font-medium text-red-500">4/10</div>
+                <div className="ml-auto font-medium">N/a</div>
               </div>
           </div>
         </CardContent>
