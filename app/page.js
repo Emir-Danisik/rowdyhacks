@@ -47,7 +47,7 @@ export default function Home() {
     <div className="container mx-auto px-20 pt-10 items-center pb-20">
 
       <div className="items-center text-center">
-      <h2 className="text-6xl font-bold tracking-tight pb-1.5">Your Interview Analysis</h2>
+      <h2 className="text-6xl font-bold tracking-tight pb-1.5">Your InterVue Analysis</h2>
         <p className="text-2xl text-medium-foreground">{company} - {jobTitle}</p>
       </div>
          <Separator className="h-[3px] mt-4" />
@@ -111,7 +111,7 @@ export default function Home() {
                   <AvatarFallback>1</AvatarFallback>
                 </Avatar>
                 <div className="ml-4 space-y-1">
-                  <p className="text-md font-bold leading-none mb-2">Why do you want to work for {company}?</p>
+                  <p className="text-md font-bold leading-none mb-2">Tell me more about your experience at {company}?</p>
                   <p className="text-sm -foreground">
                   Your response is effective because it not only demonstrates a deep understanding of and appreciation for the company&apos;s values and work environment but also aligns the candidate&apos;s personal and professional goals with the company&apos;s mission and culture. 
                   </p>
@@ -125,7 +125,7 @@ export default function Home() {
                   <AvatarFallback>2</AvatarFallback>
                 </Avatar>
                 <div className="ml-4 space-y-1">
-                  <p className="text-md font-bold leading-none mb-2">Imagine it is your first day here at the company. What do you want to work on? What features would you improve on?</p>
+                  <p className="text-md font-bold leading-none mb-2">How do you code a linked tree?</p>
                   <p className="text-sm -foreground">
                   Your response effectively displays your readiness to contribute meaningful improvements to the company&apos;s products from the outset. 
                   </p>
