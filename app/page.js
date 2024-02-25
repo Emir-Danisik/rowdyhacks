@@ -85,8 +85,8 @@ export default function Home() {
         </div>
         
 
-        <div className="w-1/3 flex flex-col items-center justify-center">
-          <Image src="/emir.png" alt="Interviewee Name" width={250} height={250} className="rounded-lg" />
+        <div className="w-1/3 flex flex-col items-center justify-center pt-2">
+          <Image src="/win.jpg" alt="Interviewee Name" width={350} height={350} className="rounded-lg" />
           <div className="py-4">
         </div>
 
@@ -144,7 +144,7 @@ export default function Home() {
                   The response is extremely vague, lacking any specific details about the projects, and the outcomes achieved. This makes it difficult for an interviewer to gauge your experience & abilities.
                   </p>
                 </div>
-                <div className="ml-auto font-medium">N/a</div>
+                <div className="ml-auto font-medium">N/A</div>
               </div>
           </div>
         </CardContent>
