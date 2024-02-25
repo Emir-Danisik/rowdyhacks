@@ -20,9 +20,9 @@ export default function Home() {
   const [jobTitle, setJobTitle] = useState('');
 
   const [graphRevenue, setGraphRevenue] = useState([
+    { name: "02/23", total: 55 },
     { name: "02/24", total: 68 },
-    { name: "02/25", total: 76 },
-    { name: "02/26", total: 0 }
+    { name: "02/25", total: 76 }
   ]);
 
   // Fetching data from Firestore
@@ -48,11 +48,11 @@ export default function Home() {
 
       <div className="items-center text-center">
       <h2 className="text-6xl font-bold tracking-tight pb-1.5">Your Interview Analysis</h2>
-        <p className="text-lg text-muted-foreground">{company} - {jobTitle}</p>
+        <p className="text-2xl text-medium-foreground">{company} - {jobTitle}</p>
       </div>
          <Separator className="h-[3px] mt-4" />
 
-      <div className="flex flex-col md:flex-row items-center py-8 px-6">
+      <div className="flex flex-col md:flex-row items-center py-8">
 
         <div className="w-2/3">
           
@@ -92,10 +92,8 @@ export default function Home() {
 
         </div>
       </div>
-      
-      <Separator className="h-[1px] mt-4 mb-4" />
 
-      <div className="flex pt-8">
+      <div className="flex pt-8 pb-8">
       <div className="w-2/3 items-center justify-center ">
         <Card className="col-span-3">
         <CardHeader>
