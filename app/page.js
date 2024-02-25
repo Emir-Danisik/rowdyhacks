@@ -113,7 +113,7 @@ export default function Home() {
                 <div className="ml-4 space-y-1">
                   <p className="text-md font-bold leading-none mb-2">Why do you want to work for {company}?</p>
                   <p className="text-sm -foreground">
-                  Your response is effective because it not only demonstrates a deep understanding of and appreciation for the company&apos;s values and work environment but also aligns the candidate&apos;s personal and professional goals with the company's mission and culture. 
+                  Your response is effective because it not only demonstrates a deep understanding of and appreciation for the company&apos;s values and work environment but also aligns the candidate&apos;s personal and professional goals with the company&apos;s mission and culture. 
                   </p>
                 </div>
                 <div className="ml-auto font-medium text-green-500">9/10</div>
