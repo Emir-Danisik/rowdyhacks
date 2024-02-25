@@ -48,7 +48,7 @@ export default function Home() {
 
       <div className="items-center text-center">
       <h2 className="text-6xl font-bold tracking-tight pb-1.5">Your InterVue Analysis</h2>
-        <p className="text-2xl text-medium-foreground">{company} - {jobTitle}</p>
+        <p className="text-4xl text-medium-foreground">{company} - {jobTitle}</p>
       </div>
          <Separator className="h-[3px] mt-4" />
 
