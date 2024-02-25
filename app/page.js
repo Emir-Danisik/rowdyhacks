@@ -130,7 +130,7 @@ export default function Home() {
                   Your response effectively displays your readiness to contribute meaningful improvements to the company&apos;s products from the outset. 
                   </p>
                 </div>
-                <div className="ml-auto font-medium text-orange-500">N/A</div>
+                <div className="ml-auto font-medium">N/A</div>
               </div>
 
               <div  className="flex items-center">
